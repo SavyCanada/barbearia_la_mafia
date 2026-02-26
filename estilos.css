@@ -1,0 +1,147 @@
+/*CSS code by Savy*/
+
+/* === Reset === */
+* {
+    margin: 0; /* === Remocao das margens === */
+    padding: 0; /* === Remocao do espacamento interno === */
+    font-family: 'Tahoma', sans-serif; /* === Fonte Tahoma e segunda opcao sans-serif === */
+  }
+
+/* === Estilos globais, comum para todos as secoes === */
+body{
+    margin: 0; /* === Remocao das margens do corpo === */
+    font-family: Tahoma; /* === Fonte do corpo da pagina Tahoma === */
+}
+.secao{
+    text-align: center; /* === Alinhamento centralizado === */
+    padding-top: 30px; /* === Espacamento interno suprerior de 30px === */
+    padding-bottom: 30px; /* === Espacamento interno inferior de 30px === */
+}
+.paragrafo{
+    margin: 10px auto; /* === margem superior e inferior de 10px, margem direita e esquerda automatica === */
+    width: 980px; /* === Largura de 980px === */
+    text-align: justify; /* === Alinhamento do texto justificado === */
+    font-size: 18px; /* === Tamanho do texto de 18px === */
+    line-height: 28px; /* === Altura da linha do texto de 28px === */
+}
+
+/* ===  1ª seção === */
+.topo{
+    background-color:#0e085e; /* === Cor de fundo === */
+}
+.topo img {
+    width: 300px; /* === Largura de 300px === */
+}
+.link-topo{
+    font-size: 18px; /* === Tamanho do texto de 18px === */
+    color: #ffffff; /* === Cor do texto === */
+    border-bottom: 2px solid #1d1d1d; /* === Borda inferior solida de tamanho 2px e cor=#1d1d1d === */
+    text-decoration: none; /* === Remocao do sublinhado === */
+    margin: 0 10px; /* === Remocao da margem superior e inferior, margem direita e esquerda de 10px === */
+}
+.paragrafo-topo{
+    margin-top: 15px; /* === Margem superior de 15px === */
+    margin-bottom: 25px; /* === Margem inferor de 25px === */
+    text-align: center; /* === Alinhamento do texto centralizado === */
+}
+
+/* ===  2ª seção === */
+.banner{
+    margin-top: 50px; /* === Margem superior de 50px === */
+    padding-top: 0; /* === Remocao do espacamento interno suprerior === */
+}
+
+/* ===  3ª seção === */
+h1 {
+    color: red; /* === Cor do texto #1d1d1d === */
+    margin-bottom: 5px; /* === Margem superior de 5px === */
+}
+
+h2 {
+    font-weight: normal; /* === Remocao do negrito do texto=== */
+    color: #0e085e; /* === Cor do texto #1c81c0 === */
+    margin-top: 0; /* === Remocao da margem superior === */
+}
+
+.imagem {
+    width: 450px; /* === Largura de 450px === */
+}
+
+.texto-azul {
+    color: #0e085e; /* === Cor do texto #1d80c1 === */
+}
+
+/* ===  4ª seção === */
+.servicos{
+    background-color: #0e085e; /* === Cor de fundo #1d80c1 === */
+}
+h3{
+    color: #ffffff; /* === Cor do texto #ffffff === */
+    font-size: 28px; /* === Tamanho do texto de 28px === */
+    line-height: 42px; /* === Altura da linha do texto de 42px === */
+}
+.paragrafo-servicos{
+    color: #ffffff; /* === Cor do texto #ffffff === */
+    line-height: 42px; /* === Altura da linha do texto de 42px === */
+    font-size: 22px; /* === Tamanho do texto de 22px === */
+    text-align: center; /* === Alinhamento do texto centralizado === */
+    width: 1000px; /* === Largura === */
+    }
+.texto-amarelo{
+    color: #fff81b; /* === Cor do texto #fff81b === */
+}
+.lista-servicos{
+    width: 900px; /* === Largura === */
+    margin: 40px auto; /* === Margem superior e inferior de 40px e margem direita e esquerda automatica === */
+}
+.item-lista-servicos{
+    font-size: 22px; /* === Tamanho do texto de 22px === */
+    line-height: 42px; /* === Altura da linha do texto de 42px === */
+    text-align: left; /* === Alinhamento do texto para esquerda === */
+    color: #ffffff; /* === Cor do texto #ffffff === */
+}
+
+/* ===  5ª seção === */
+/* === Os estilos e elementos desta secao foram definidos em outras secoes e reaproveitados aqui=== */
+/* === Os estilos e elementos desta secao foram definidos em outras secoes === */
+
+/* ===  6ª seção === */
+.contato{
+    background-color: #0e085e; /* === Cor de fundo #1d80c1 === */
+}
+
+.paragrafo-contato{
+    color: #ffffff; /* === Cor do texto #ffffff === */
+    background-color: #1d1d1d; /* === Cor de fundo #1d1d1d === */
+    padding: 15px; /* === Espacamento interno de 15px para todos os lados === */
+    margin-top: 30px; /* === Margem superior de 30px === */
+    margin-bottom: 30px; /* === Margem inferior de 30px === */
+}
+
+.lista-contato {
+    width: 210px; /* === Largura de 210px === */
+    list-style: none; /* === Retirada do sublinhado do texto === */
+    margin: 40px auto; /* === Margem superior e inferior de 40px e margem direita e esquerda automatica === */
+}
+
+.item-lista-contato{
+    margin-top: 15px; /* === Margem superior de 15px === */
+    text-align: center; /* === Alinhamento do texto centralizado === */
+    font-size: 18px; /* === Tamanho do texto de 18px === */
+}
+
+.link-contato{
+    background-color: #ffffff; /* === Cor de fundo #ffffff === */
+    color: #0e085e; /* === Cor do texto === */
+    padding: 2px 5px; /* === Espacamento interno superior e inferior de 2px, 5px para erquerda e 5 px para direita === */
+    border-radius: 5px; /* === Borda arredondada de 5px === */
+}
+iframe{
+    width: 900px;
+    height: 450px;
+}
+
+/* ===  estilos para destaques === */
+span{
+    font-weight: bold; /* === Texto em negrito === */
+}
